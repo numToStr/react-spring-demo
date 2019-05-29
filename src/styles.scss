@@ -1,0 +1,95 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+p {
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.trails-main {
+  position: relative;
+  height: 100px;
+}
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: palevioletred;
+  font-size: 5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+
+// .drawer {
+//   width: 100%;
+//   height: 100%;
+//   background: crimson;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.box {
+  height: 50px;
+  width: 50px;
+  background: forestgreen;
+}
+
+// .drawer-button {
+//   cursor: pointer;
+//   border: none;
+//   background: black;
+//   color: white;
+//   padding: 0.3rem 0.5rem;
+//   border-radius: 4px;
+//   position: fixed;
+//   top: 10px;
+//   left: 10px;
+//   z-index: 5;
+// }
+
+// .drawer-links {
+//   font-size: 5rem;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   margin: 0.8rem 0;
+// }
